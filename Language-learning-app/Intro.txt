@@ -1,0 +1,17 @@
+This is a language learning app where flash cards are shown. You need to think of the translated word which will be shown after 2 seconds. If you are correct, you press the green checkmark, if you were incorrect you press the red X. Every time you get a card correct it is taken out of the deck, forcing you to repeat the ones you didn't get correct until you get them correct.
+
+There are 4 levels, beginner, medium, hard and expert. At the start of the app you need to select which difficulty level you take.
+
+
+I scraped the 100 most common used words for each available language in order to be able to quickly pick up the langauge if you were ever to visit the country.
+
+In arabic there are grammar symbols that can tell you how to pronounce a word, but they are not written down in commonly used arabic. As such, I thought it was nice to implement an actual voice to say the word out loud to help with understanding which word is being meant as there is no context.
+
+In order for the voice to actually say the words out loud, the voice language has to be installed first. I did not know how to properly do this so I used Puneet Singh's solution: https://puneet166.medium.com/how-to-added-more-speakers-and-voices-in-pyttsx3-offline-text-to-speech-812c83d14c13
+
+Then I used pyttsx3 to read the text out loud via text to speech. 
+
+
+------ TO BE ADDED -----
+
+The languages French, German, Spanish and Italian are to be added soon.
